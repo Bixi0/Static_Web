@@ -1,0 +1,41 @@
+:root {
+    --non_white: #F9F5F6;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(90deg, #545B77, #374259);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#phone {
+    background-color: var(--non_white);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    border: solid 5px black;
+    height: 45rem;
+    width: 25rem;
+}
+
+#bot_button {
+    background-color: var(--non_white);
+    position: absolute;
+    display: flex;
+    border-radius: 1rem;
+    height: 1.7rem;
+    width: 1.7rem;
+    bottom: 0.1rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #phone {
+        width: 100%;
+        margin: 20px;
+    }
+}

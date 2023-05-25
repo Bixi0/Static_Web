@@ -1,0 +1,84 @@
+/* Screens */
+
+#phone_screen {
+    background-image: url(/assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    border: solid 5px black;
+    border-radius: 1rem;
+    height: 90%;
+    width: 90%;
+}
+
+#top_half_screen {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+}
+
+#bot_half_screen {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+}
+
+/* Top-Half screen elements */
+
+#phone_header {
+    background-color: black;
+    position: absolute;
+    height: 1rem;
+    width: 100%;
+}
+
+#clock {
+    font-size: 4rem;
+    color: var(--non_white);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+}
+
+/* Bot-Half screen elements */
+
+#wsp_trucho {
+    background-image: url("/assets/wsp_trucho.svg");
+}
+
+#nexus {
+    background-image: url("/assets/nexus.svg");
+    background-color: #b61644;
+}
+
+/* Others */
+
+
+
+.app {
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    position: relative;
+    border-radius: 10rem;
+    height: 4rem;
+    width: 4rem;
+    margin: .5rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #phone {
+        width: 100%;
+        margin: 20px;
+    }
+}
