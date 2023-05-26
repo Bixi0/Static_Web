@@ -1,0 +1,20 @@
+~DUDAS~
+
+1- Cómo hacer scrolleable sólo la zona respectiva a la pantalla? Sin que se vea el
+cosito del ascensor, que sólo con la ruedita del mouse se pueda lograr.
+
+2- Cómo acomodar los mensajes en Wsp_Trucho para que siempre que se inserte un nuevo
+mensaje el globo de imagen se acomode según la persona que lo envía? Con grid sólo
+puedo controlar un tamaño fijo de columna. Pienso que quizá haya que agregar una 
+tercera columna que sirva únicamente para la imagen del usuario, pero ésto podría
+hacer que se vea todo mas feucho.
+
+
+~CAMBIOS~
+
+1-  Hacer que el "phone_header" esté por fuera de la pantalla donde se muestran
+las aplicaciones y escritorio. Lo mismo iría para "Wsp_Trucho" al agregar el input
+para escribir, de manera que siempre quede fijo en la parte de abajo del chat.
+
+    Para lograr esto pensé lo siguiente: crear un nuevo elemento que sirva para 
+marcar los límites de la pantalla EXCEPTO el header.
