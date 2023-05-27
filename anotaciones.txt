@@ -9,6 +9,8 @@ puedo controlar un tamaño fijo de columna. Pienso que quizá haya que agregar u
 tercera columna que sirva únicamente para la imagen del usuario, pero ésto podría
 hacer que se vea todo mas feucho.
 
+3- Como hacer que el mensaje de alerta de la pantalla de inicio solo aparezca la primer vez que se carga la página
+
 
 ~CAMBIOS~
 
