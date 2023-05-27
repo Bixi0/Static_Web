@@ -1,5 +1,5 @@
 :root {
-    --non_white: #F9F5F6;
+    --non_white: #f1f6f9d8;
 }
 
 body {
@@ -10,7 +10,12 @@ body {
     justify-content: center;
 }
 
-/* Screens */
+a {
+    height: 4rem;
+    width: 4rem;
+}
+
+/* Phone Screens */
 
 #phone {
     background-color: var(--non_white);
@@ -24,17 +29,35 @@ body {
     width: 25rem;
 }
 
-#phone_screen {
+#phone_screen_limits {
+    position: absolute;
+    display: flex;
+    border: solid 5px black;
+    border-radius: 1rem;
+    height: 90%;
+    width: 90%;
+}
+
+#phone_header {
+    background-color: black;
+    position: absolute;
+    display: flex;
+    height: 1rem;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+#phone_touch {
     background-image: url(/assets/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     display: flex;
-    border: solid 5px black;
-    border-radius: 1rem;
     height: 90%;
     width: 90%;
+    border-radius: .6rem;
 }
 
 #top_half_screen {
@@ -48,21 +71,14 @@ body {
 
 #bot_half_screen {
     position: absolute;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto auto auto;
     bottom: 0;
     height: 50%;
     width: 100%;
 }
 
 /* Top-Half screen elements */
-
-#phone_header {
-    background-color: black;
-    position: absolute;
-    height: 1rem;
-    width: 100%;
-}
 
 #clock {
     font-size: 4rem;

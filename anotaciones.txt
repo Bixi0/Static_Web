@@ -12,9 +12,6 @@ hacer que se vea todo mas feucho.
 
 ~CAMBIOS~
 
-1-  Hacer que el "phone_header" esté por fuera de la pantalla donde se muestran
-las aplicaciones y escritorio. Lo mismo iría para "Wsp_Trucho" al agregar el input
-para escribir, de manera que siempre quede fijo en la parte de abajo del chat.
+1-  Lograr que "Phone_Header" esté en la parte superior de "phone_screen_limits"
+y sea inamovible.
 
-    Para lograr esto pensé lo siguiente: crear un nuevo elemento que sirva para 
-marcar los límites de la pantalla EXCEPTO el header.
