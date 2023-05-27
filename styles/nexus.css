@@ -45,7 +45,15 @@ body {
 }
 
 #phone_touch {
-    background-color: #374259;
+    background: linear-gradient(45deg, #116D6E, #0a5253);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 90%;
+    border-radius: .6rem;
 }
 
 /* Others */
@@ -60,4 +68,51 @@ body {
     width: 1.7rem;
     bottom: 0.1rem;
     left: 47%;
+}
+
+#loading {
+    position: relative;
+    display: flex;
+    height: 3rem;
+    color: white;
+}
+
+#loading_bar {
+    background-color: white;
+    position: relative;
+    height: 2rem;
+    width: 70%;
+    border: solid 1px white;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    animation: animation-loading_bar
+}
+
+#loading_bar::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #CD1818;
+    transform: translateX(-100%);
+
+    animation: loading_bar-animation 5s .5s ease forwards;
+}
+
+/* KeyFrames */
+
+@keyframes loading_bar-animation {
+    to {
+        transform: translateX(0%)
+    }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #phone {
+        width: 100%;
+        max-width: 100%;
+        margin: 20px;
+    }
 }
