@@ -11,6 +11,8 @@ hacer que se vea todo mas feucho.
 
 3- Como hacer que el mensaje de alerta de la pantalla de inicio solo aparezca la primer vez que se carga la página
 
+4- Como realizar mensajes aleatorios y que se muestren en wsp_trucho.html
+
 
 ~CAMBIOS~
 
