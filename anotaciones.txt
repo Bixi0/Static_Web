@@ -9,13 +9,29 @@ puedo controlar un tamaño fijo de columna. Pienso que quizá haya que agregar u
 tercera columna que sirva únicamente para la imagen del usuario, pero ésto podría
 hacer que se vea todo mas feucho.
 
-3- Como hacer que el mensaje de alerta de la pantalla de inicio solo aparezca la primer vez que se carga la página
+3- Como hacer que el mensaje de alerta de la pantalla de inicio solo aparezca la 
+primer vez que se carga la página
 
 4- Como realizar mensajes aleatorios y que se muestren en wsp_trucho.html
 
 
 ~CAMBIOS~
 
-1-  Lograr que "Phone_Header" esté en la parte superior de "phone_screen_limits"
-y sea inamovible.
+1- Cambiar input de wsp_trucho por ventana con elecciones y
+darle uso al boton de enviar
 
+2- usar "animationend" y "location" para enviar al usuario
+a cptd_index
+
+3- array de mensajes, y cada vez que suceda algo que desencadene
+un mensaje, mostrar +1 en el index.
+
+4- crear css para tanto mensaje de usuario como de character.
+
+5- usar session en vez de local
+
+6- banderas para ventana modal
+
+7- agregar elementos de batería y wifi sin señal al header
+
+8- 
