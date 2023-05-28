@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/index.css" />
     <title>Desktop</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section id="phone">
+      <div id="phone_screen_limits"></div>
 
-        <div id="phone_screen_limits"></div>
+      <section id="phone_touch">
+        <div id="top_half_screen">
+          <div id="phone_header"></div>
+          <div id="clock"><strong>11:11</strong></div>
+        </div>
 
-        <section id="phone_touch">
+        <div id="bot_half_screen">
+          <a href="/pages/wsp_trucho.html"
+            ><button class="app" id="wsp_trucho"></button
+          ></a>
+          <a href="/pages/nexus.html"
+            ><button class="app" id="nexus"></button
+          ></a>
+        </div>
+        <div></div>
+      </section>
 
-            <div id="top_half_screen">
-                <div id="phone_header"></div>
-                <div id="clock"><strong>11:11</strong></div>
-            </div>
-
-            <div id="bot_half_screen">
-                <a href="/pages/wsp_trucho.html"><button class="app" id="wsp_trucho"></button></a>
-                <a href="/pages/nexus.html"><button class="app" id="nexus"></button></a>
-            </div>
-            <div></div>
-
-        </section>
-
-        <button id="bot_button"></button>
-
+      <button id="bot_button"></button>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="/scripts/index.js"></script>
-</body>
-
+  </body>
 </html>
