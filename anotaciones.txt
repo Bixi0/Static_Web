@@ -10,9 +10,9 @@ tercera columna que sirva únicamente para la imagen del usuario, pero ésto pod
 hacer que se vea todo mas feucho.
 
 3- Como hacer que el mensaje de alerta de la pantalla de inicio solo aparezca la 
-primer vez que se carga la página
+primer vez que se carga la página. resuelto ✔ 😎 
 
-4- Como realizar mensajes aleatorios y que se muestren en wsp_trucho.html
+4- Como realizar mensajes aleatorios y que se muestren en wsp_trucho.html. resuelto ✔ 😎  
 
 
 ~CAMBIOS~
@@ -34,4 +34,6 @@ un mensaje, mostrar +1 en el index.
 
 7- agregar elementos de batería y wifi sin señal al header
 
-8- 
+8- realizar que la ventana emergente del inicio aparezca un tiempo determinado
+
+9 - cuando se llena la barra de cargando realizar efecto de pantalla negra y volver a pantalla de inicio pero corrompida (linkear html)
