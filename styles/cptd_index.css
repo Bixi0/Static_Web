@@ -1,0 +1,137 @@
+:root {
+    --non_white: #f1f6f9d8;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(90deg, #545B77, #374259);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    height: 4rem;
+    width: 4rem;
+}
+
+/* Phone Screens */
+
+#phone {
+    background-color: var(--non_white);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    border: solid 5px black;
+    height: 45rem;
+    width: 25rem;
+}
+
+#phone_screen_limits {
+    position: absolute;
+    display: flex;
+    border: solid 5px black;
+    border-radius: 1rem;
+    height: 90%;
+    width: 90%;
+}
+
+#phone_header {
+    background-color: black;
+    position: absolute;
+    display: flex;
+    height: 1rem;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
+#phone_touch {
+    background-image: url(/assets/cptd_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    height: 90%;
+    width: 90%;
+    border-radius: .6rem;
+
+}
+
+#top_half_screen {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+}
+
+#bot_half_screen {
+    position: absolute;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+}
+
+/* Top-Half screen elements */
+
+#clock {
+    font-size: 4rem;
+    color: var(--non_white);
+    position: relative;
+}
+
+/* Bot-Half screen elements */
+
+#wsp_trucho {
+    background-image: url("/assets/wsp_trucho.svg");
+}
+
+#nexus {
+    background-image: url("/assets/nexus.svg");
+    background-color: #b61644;
+}
+
+/* Others */
+
+.app {
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    position: relative;
+    border-radius: 10rem;
+    height: 4rem;
+    width: 4rem;
+    margin: .5rem;
+}
+
+#bot_button {
+    background-color: var(--non_white);
+    position: absolute;
+    display: flex;
+    border-radius: 1rem;
+    height: 1.7rem;
+    width: 1.7rem;
+    bottom: 0.1rem;
+}
+
+#phone_touch>* {
+    filter: invert(100%);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #phone {
+        width: 100%;
+        max-width: 100%;
+        margin: 20px;
+    }
+}
