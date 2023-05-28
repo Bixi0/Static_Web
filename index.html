@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <title>Desktop</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/styles/index.css" />
-  <title>Desktop</title>
-</head>
+  <body>
+    <section id="phone">
+      <div id="phone_screen_limits"></div>
 
-<body>
-  <section id="phone">
-    <div id="phone_screen_limits"></div>
+      <section id="phone_touch">
+        <div id="top_half_screen">
+          <div id="phone_header"></div>
+          <div id="clock"><strong>11:11</strong></div>
+        </div>
 
-    <section id="phone_touch">
-      <div id="top_half_screen">
-        <div id="phone_header"></div>
-        <div id="clock"><strong>11:11</strong></div>
-      </div>
+        <div id="bot_half_screen">
+          <a id="wsp_trucho" class="app" href="/pages/wsp_trucho.html"></a>
+          <a id="nexus" class="app" href="/pages/nexus.html"></a>
+        </div>
+        <div></div>
+      </section>
 
-      <div id="bot_half_screen">
-        <a id="wsp_trucho" class="app" href="/pages/wsp_trucho.html"></a>
-        <a id="nexus" class="app" href="/pages/nexus.html"></a>
-      </div>
-      <div></div>
+      <button id="bot_button"></button>
     </section>
 
-    <button id="bot_button"></button>
-  </section>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="/scripts/index.js"></script>
-</body>
-
+    <div id="popup" class="popup hidden">
+      <h1>Mensaje de número desconocido</h1>
+      <p>Deseas agregar contacto?</p>
+      <button onclick="aceptar()">Aceptar</button>
+      <button onclick="cancelar()">Cancelar</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/scripts/index.js"></script>
+  </body>
 </html>
