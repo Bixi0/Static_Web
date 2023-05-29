@@ -1,48 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/cptd_wsp.css">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/cptd_wsp.css" />
     <title>WaZap</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section id="phone">
+      <div id="phone_screen_limits">
+        <section id="phone_touch">
+          <div id="phone_header"></div>
+          <div id="chat">
+            <!-- Acá se mostrarán los mensajes -->
+          </div>
+          <input id="message_input" type="text" />
+          <button id="send_message" type="submit"></button>
+        </section>
+      </div>
 
-        <div id="phone_screen_limits">
-
-            <section id="phone_touch">
-
-                <div id="phone_header"></div>
-
-                <div class="profile_globe"></div>
-                <div class="message_globe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem quo
-                    quisquam
-                    distinctio dicta? Laborum repellat aut voluptatibus aspernatur deleniti a illum vel, expedita
-                    commodi,
-                    sunt architecto ea molestiae aliquam.
-                </div>
-
-                <div class="profile_globe"></div>
-                <div class="message_globe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem quo
-                    quisquam
-                    distinctio dicta? Laborum repellat aut voluptatibus aspernatur deleniti a illum vel, expedita
-                    commodi,
-                    sunt architecto ea molestiae aliquam.
-                </div>
-
-                <input id="message_input" type="text">
-                <button id="send_message" type="submit"></button>
-
-        </div>
-
-
-        <a href="/pages/cptd_index.html"><button id="bot_button"></button></a>
-
+      <a href="/pages/cptd_index.html"><button id="bot_button"></button></a>
     </section>
-</body>
-
+    <script src="/scripts/cptd_wsp.js"></script>
+  </body>
 </html>
