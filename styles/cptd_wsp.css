@@ -50,9 +50,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    display: grid;
-    grid-template-columns: 5rem auto;
     border-radius: .6rem;
     height: 100%;
     width: 100%;
@@ -86,33 +83,6 @@ body {
     margin: .5rem;
 }
 
-/* Screen Elements */
-
-.profile_globe {
-    background-color: white;
-    background-image: url(/assets/profile-circle.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 10rem;
-    position: relative;
-    display: flex;
-    margin: 1.5rem 1.5rem 1rem 1rem;
-}
-
-.message_globe {
-    background-color: var(--green_pastel);
-    position: relative;
-    opacity: 90%;
-    width: 15rem;
-    height: max-content;
-    padding: .5rem;
-    margin: 1.5rem 1.5rem 0rem 0rem;
-    border-radius: 1rem;
-}
-
 /* Others */
 
 #bot_button {
@@ -129,6 +99,25 @@ body {
 
 #phone_touch>* {
     filter: invert(100%)
+}
+
+.message {
+  margin-bottom: 6.5px;
+  padding: 2.5px;
+  border-radius: 5px;
+}
+
+.girl {
+  margin-right: auto;
+  width: fit-content;
+  background-color: #f0f0f0;
+}
+
+.you {
+  text-align: right;
+  width: fit-content;
+  margin-left: auto;
+  background-color:#bff9b3 ;
 }
 
 /* Media Queries */
