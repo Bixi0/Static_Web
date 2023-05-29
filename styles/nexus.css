@@ -100,6 +100,16 @@ body {
     animation: loading_bar-animation 5s .5s ease forwards;
 }
 
+#screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 2s;
+  }
 /* KeyFrames */
 
 @keyframes loading_bar-animation {
