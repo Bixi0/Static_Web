@@ -84,21 +84,21 @@ body {
   margin: 0.5rem;
 }
 
+.message_globe {
+  background-color: var(--green_pastel);
+  position: relative;
+  opacity: 90%;
+  width: 15rem;
+  height: max-content;
+  padding: .5rem;
+  margin: 1.5rem 1.5rem 0rem 0rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+
 /* Screen Elements */
 
-.profile_globe {
-  background-color: #8696fe;
-  background-image: url(/assets/profile-circle.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 7rem;
-  position: relative;
-  display: flex;
-  margin: 1.5rem 1.5rem 1rem 1rem;
-}
 
 /* Others */
 
@@ -114,20 +114,6 @@ body {
   left: 47%;
 }
 
-.message {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.girl {
-  background-color: #f2bed1;
-}
-
-.you {
-  background-color: #8696fe;
-}
 
 /* Media Queries */
 @media (max-width: 768px) {
