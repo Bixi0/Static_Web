@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(90deg, #545B77, #374259);
+    background-image: url("https://img.freepik.com/free-vector/geometric-gradient-background_1010-638.jpg?w=740&t=st=1685453129~");
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,7 +109,8 @@ body {
     background-color: black;
     opacity: 0;
     transition: opacity 2s;
-  }
+}
+
 /* KeyFrames */
 
 @keyframes loading_bar-animation {

@@ -5,7 +5,9 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(90deg, #545B77, #374259);
+    background: url("https://thumbs.gfycat.com/IncomparableGaseousDunlin-size_restricted.gif");
+    background-size: contain;
+    background-repeat: repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +71,7 @@ body {
 
 #send_message {
     background-color: var(--non_white);
-    background-image: url(/assets/send-message.svg);
+    background-image: url("https://www.svgrepo.com/show/506314/send-2.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -102,22 +104,25 @@ body {
 }
 
 .message {
-  margin-bottom: 6.5px;
-  padding: 2.5px;
-  border-radius: 5px;
+    margin-bottom: 6.5px;
+    padding: 2.5px;
+    border-radius: 5px;
 }
 
 .girl {
-  margin: 1px 1px 1px 2px;
-  width: fit-content;
-  background-color: #f0f0f0;
+    margin-right: auto;
+    width: fit-content;
+    background-color: #f0f0f0;
+    margin: .7rem .7rem auto .2rem;
+    width: fit-content;
+    background-color: #f0f0f0;
 }
 
 .you {
-  text-align: right;
-  width: fit-content;
-  margin-left: auto;
-  background-color:#bff9b3 ;
+    text-align: right;
+    width: fit-content;
+    margin: .7rem .7rem .2rem auto;
+    background-color: #bff9b3;
 }
 
 /* Media Queries */

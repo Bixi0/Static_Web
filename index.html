@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/index.css" />
-    <title>Desktop</title>
-  </head>
 
-  <body>
-    <section id="phone">
-      <div id="phone_screen_limits"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles/index.css" />
+  <title>Desktop</title>
+</head>
 
-      <section id="phone_touch">
-        <div id="top_half_screen">
-          <div id="phone_header"></div>
-          <div id="clock"></div>
-        </div>
+<body>
+  <section id="phone">
+    <div id="phone_screen_limits"></div>
 
-        <div id="bot_half_screen">
-          <a id="wsp_trucho" class="app" href="/pages/wsp_trucho.html"></a>
-          <a id="nexus" class="app" href="/pages/nexus.html"></a>
-        </div>
-        <div></div>
-      </section>
-      <div id="popup" class="popup">
-        <div class="popup-content">
-          <h2>Mensaje de número desconocido</h2>
-          <p>Deseas leer el mensaje?</p>
-          <div class="buttons">
-            <button onclick="accept()">Aceptar</button>
-            <button onclick="cancel()">Cancelar</button>
-          </div>
-        </div>
+    <section id="phone_touch">
+      <div id="top_half_screen">
+        <div id="phone_header"></div>
+        <div id="clock"><strong>11:11</strong></div>
       </div>
-      <button id="bot_button"></button>
+
+      <div id="bot_half_screen">
+        <a id="wsp_trucho" class="app" href="/pages/wsp_trucho.html"></a>
+        <a id="nexus" class="app" href="/pages/nexus.html"></a>
+      </div>
+      <div></div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="/scripts/index.js"></script>
-  </body>
+
+    <button id="bot_button"></button>
+  </section>
+
+  <div id="popup" class="popup hidden">
+    <h1>Mensaje de número desconocido</h1>
+    <p>Deseas agregar contacto?</p>
+    <button onclick="aceptar()">Aceptar</button>
+    <button onclick="cancelar()">Cancelar</button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="/scripts/index.js"></script>
+</body>
+
+</html>
+
 </html>

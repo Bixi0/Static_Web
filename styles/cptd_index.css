@@ -4,7 +4,10 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(90deg, #545B77, #374259);
+
+    background: url("https://thumbs.gfycat.com/IncomparableGaseousDunlin-size_restricted.gif");
+    background-size: contain;
+    background-repeat: repeat;
     display: flex;
     align-items: center;
     justify-content: center;
