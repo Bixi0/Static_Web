@@ -37,9 +37,11 @@ body {
 }
 
 #phone_header {
-    background-color: black;
+    background-color: white;
     position: absolute;
     display: flex;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
     height: 1rem;
     width: 100%;
     z-index: 1;
