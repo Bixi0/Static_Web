@@ -14,49 +14,54 @@
   showCloseButton: "true",
 });*/
 
-//Capture current time//
+// Obtener la hora actual sin segundos
+const date = new Date();
+const hours = date.getHours();
+const minutes = date.getMinutes();
 
-const time = document.getElementById("clock");
+// Formatear la hora sin segundos
+const time = hours + ":" + (minutes < 10 ? "0" : "") + minutes;
 
-const interval = setInterval(() => {
-  const currentTime = new Date();
-
-  time.innerHTML = currentTime.toLocaleTimeString();
-}, 1000);
+// Mostrar la hora en el elemento correspondiente
+const timeElement = document.getElementById("clock");
+timeElement.textContent = time;
 
 //Alert Message!!//
 
-document.addEventListener("DOMContentLoaded", function () {
-  var popup = document.getElementById("popup");
+window.addEventListener("load", () => {
+  const popup = document.getElementById("popup");
+  showTimeout;
 
-  if (!sessionStorage.getItem("popupShown")) {
-    popup.classList.remove("hidden");
-    sessionStorage.setItem("popupShown", "true");
-  }
+  // Función para mostrar la ventana emergente después de un retraso
+  const showPopup = () => {
+    popup.style.display = "block";
+  };
 
-  popup.addEventListener("animationend", function () {
-    popup.classList.add("hidden");
-  });
+  // Mostrar la ventana emergente después de 3 segundos (3000 milisegundos)
+  showTimeout = setTimeout(showPopup, 3000);
+
+  // Función para cerrar la ventana emergente
+  const closePopup = () => {
+    popup.style.display = "none";
+  };
+
+  // Función para manejar el clic en el botón "Aceptar"
+  const accept = () => {
+    closePopup();
+    clearTimeout(showTimeout); // Cancelar el timeout existente
+    // Redirigir a otro archivo HTML
+    window.location.href = "/pages/wsp_trucho.html";
+  };
+
+  // Función para manejar el clic en el botón "Cancelar"
+  const cancel = () => {
+    closePopup();
+    showTimeout = setTimeout(showPopup, 2000); // Volver a mostrar la ventana después de 5 segundos (5000 milisegundos)
+  };
+
+  // Agregar eventos a los botones
+  const acceptButton = popup.querySelector(".buttons button:first-of-type");
+  const cancelButton = popup.querySelector(".buttons button:last-of-type");
+  acceptButton.addEventListener("click", accept);
+  cancelButton.addEventListener("click", cancel);
 });
-
-const mostrarVentanaEmergente = () => {
-  var popup = document.getElementById("popup");
-  popup.style.display = "block";
-  setTimeout(
-    (mostrarVentanaEmergente = () => {
-      popup.style.display = "none";
-    }),
-    5000
-  ); // Cerrar la ventana emergente después de 5 segundos (5000 milisegundos)
-};
-
-const aceptar = () => {
-  var popup = document.getElementById("popup");
-  popup.style.display = "none";
-  // Acá se puede agregar el código que se ejecutará cuando el usuario haga clic en "Aceptar"
-};
-
-const cancelar = () => {
-  var popup = document.getElementById("popup");
-  popup.style.display = "none";
-};
