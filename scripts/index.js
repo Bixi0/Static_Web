@@ -30,7 +30,7 @@ timeElement.textContent = time;
 
 window.addEventListener("load", () => {
   const popup = document.getElementById("popup");
-  showTimeout;
+  let showTimeout;
 
   // Función para mostrar la ventana emergente después de un retraso
   const showPopup = () => {
