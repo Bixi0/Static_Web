@@ -4,7 +4,8 @@
 
 body {
   font-family: "Courier New", Courier, monospace;
-  background: linear-gradient(90deg, #545b77, #374259);
+  background: url("https://wallpapercave.com/wp/wp5084391.png");
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -140,7 +141,6 @@ a {
   #phone {
     width: 100%;
     max-width: 100%;
-    margin: 20px;
   }
 }
 
@@ -148,6 +148,7 @@ a {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }

@@ -5,7 +5,8 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(90deg, #545B77, #374259);
+    background: url("https://wallpapercave.com/wp/wp5084391.png");
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,7 +110,8 @@ body {
     background-color: black;
     opacity: 0;
     transition: opacity 2s;
-  }
+}
+
 /* KeyFrames */
 
 @keyframes loading_bar-animation {
