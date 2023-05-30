@@ -19,6 +19,6 @@ darle uso al boton de enviar
 
 3- realizar que la ventana emergente del inicio aparezca un tiempo determinado
 
-TAREAS PARA MI (Ale je): pantalla nexus, mejorar botones, completar header, margin msjs, agregar header a wsp
+TAREAS PARA MI (Ale je): mejorar botones, completar header, agregar header a wsp
 
 TAREAS PARA VOS (Seba je): agregar bucle a modal, sacar limite de tiempo en modal index, modal en cptd_index y real_nexus, y batería

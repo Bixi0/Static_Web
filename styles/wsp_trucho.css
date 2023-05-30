@@ -5,8 +5,7 @@
 
 body {
   font-family: "Courier New", Courier, monospace;
-  background: url("https://wallpapercave.com/wp/wp5084391.png");
-  background-size: cover;
+  background-image: url("https://img.freepik.com/free-vector/geometric-gradient-background_1010-638.jpg?w=740&t=st=1685453129~");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,7 +70,7 @@ body {
 
 #send_message {
   background-color: var(--non_white);
-  background-image: url(/assets/send-message.svg);
+  background-image: url("https://www.svgrepo.com/show/506314/send-2.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -92,14 +91,10 @@ body {
   width: 15rem;
   height: max-content;
   padding: .5rem;
-  margin: 1.5rem 1.5rem 0rem 0rem;
+  margin: 1.5rem 1.5rem 1rem .5rem;
   border-radius: 1rem;
   text-align: center;
 }
-
-
-/* Screen Elements */
-
 
 /* Others */
 

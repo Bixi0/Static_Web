@@ -1,18 +1,18 @@
-setTimeout(function () {
+setTimeout(() => {
   // Redirigir a otra página HTML después de completar el reinicio
-  window.location.href = "cptd_wsp.html";
-}, 5300); // Tiempo de espera después de ocultar la pantalla en negro
-function iniciarProgreso() {
-  var progressBar = document.getElementById("loading-bar");
-  var pantalla = document.getElementById("screen");
+  window.location.href = "cptd_index.html";
+}, 5000); // Tiempo de espera después de ocultar la pantalla en negro
+const iniciarProgreso = () => {
+  const progressBar = document.getElementById("loading-bar");
+  const screen = document.getElementById("screen");
 
   // Mostrar la pantalla en negro gradualmente
-  pantalla.style.opacity = "1";
+  // screen.style.opacity = "1";
 
-  var width = 0;
-  var id = setInterval(frame, 53);
+  const width = 0;
+  const id = setInterval(frame, 50);
 
-  function frame() {
+  const frame = () => {
     if (width >= 100) {
       clearInterval(id);
 
@@ -22,8 +22,8 @@ function iniciarProgreso() {
       width++;
       progressBar.style.width = width + "%";
     }
-  }
-}
+  };
+};
 
 // Llamada a la función para iniciar el progreso
 iniciarProgreso();

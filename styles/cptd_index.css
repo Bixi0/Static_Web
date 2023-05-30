@@ -6,7 +6,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
 
     background: url("https://thumbs.gfycat.com/IncomparableGaseousDunlin-size_restricted.gif");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: repeat;
     display: flex;
     align-items: center;
     justify-content: center;
