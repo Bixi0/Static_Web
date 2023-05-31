@@ -1,44 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/cptd_index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/cptd_index.css" />
     <title>Desktop</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section id="phone">
+      <div id="phone_screen_limits"></div>
 
-        <div id="phone_screen_limits"></div>
+      <section id="phone_touch">
+        <div id="top_half_screen">
+          <div id="phone_header"></div>
+          <div id="clock"><strong>01:10582</strong></div>
+        </div>
 
-        <section id="phone_touch">
+        <div id="bot_half_screen">
+          <a id="wsp_trucho" class="app" href="/pages/cptd_wsp.html"></a>
+          <a id="nexus" class="app" href="/pages/real_nexus.html"></a>
+        </div>
+      </section>
 
-            <div id="top_half_screen">
-                <div id="phone_header"></div>
-                <div id="clock"><strong>01:10582</strong></div>
-            </div>
-
-            <div id="bot_half_screen">
-                <a id="wsp_trucho" class="app" href="/pages/cptd_wsp.html"></a>
-                <a id="nexus" class="app" href="/pages/real_nexus.html"></a>
-            </div>
-
-        </section>
-
-        <div id="popup" class="popup">
-            <div class="popup-content">
-              <h2>Has recibido un mensaje nuevo</h2>
-              <div class="buttons">
-                <button onclick="accept()">OK</button>
-              </div>
-            </div>
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <h2>Has recibido un mensaje nuevo</h2>
+          <div class="buttons">
+            <button onclick="accept()">OK</button>
           </div>
-
+        </div>
+      </div>
     </section>
     <script src="/scripts/cptd_index.js"></script>
-</body>
-
+  </body>
 </html>
