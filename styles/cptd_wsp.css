@@ -113,7 +113,7 @@ body {
     margin-right: auto;
     width: fit-content;
     background-color: #f0f0f0;
-    margin: .7rem .7rem auto .2rem;
+    margin: .3rem .3rem auto .2rem;
     width: fit-content;
     background-color: #f0f0f0;
 }
@@ -121,7 +121,7 @@ body {
 .you {
     text-align: right;
     width: fit-content;
-    margin: .7rem .7rem .2rem auto;
+    margin: .3rem .3rem .2rem auto;
     background-color: #bff9b3;
 }
 
