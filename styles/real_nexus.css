@@ -1,126 +1,126 @@
 :root {
-    --non_white: #f1f6f9d8;
+  --non_white: #f1f6f9d8;
 }
 
 body {
-    font-family: "Courier New", Courier, monospace;
-    background: url("https://thumbs.gfycat.com/IncomparableGaseousDunlin-size_restricted.gif");
-    background-size: contain;
-    background-repeat: repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  background: url("https://thumbs.gfycat.com/IncomparableGaseousDunlin-size_restricted.gif");
+  background-size: contain;
+  background-repeat: repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Phone Screens */
 
 #phone {
-    background-color: var(--non_white);
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1rem;
-    border: solid 5px black;
-    height: 45rem;
-    width: 25rem;
+  background-color: var(--non_white);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  border: solid 5px black;
+  height: 45rem;
+  width: 25rem;
 }
 
 #phone_screen_limits {
-    position: absolute;
-    display: flex;
-    border: solid 5px black;
-    border-radius: 1rem;
-    height: 90%;
-    width: 90%;
+  position: absolute;
+  display: flex;
+  border: solid 5px black;
+  border-radius: 1rem;
+  height: 90%;
+  width: 90%;
 }
 
 #phone_header {
-    background-color: white;
-    position: absolute;
-    display: flex;
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
-    height: 1rem;
-    width: 100%;
-    z-index: 1;
-    top: 0;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  height: 1rem;
+  width: 100%;
+  z-index: 1;
+  top: 0;
 }
 
 #phone_touch {
-    background: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjNmNjAwYjdmYzM1MmFhMDRmMWZkMjdkZTAxYTNlNjI2ZTUyY2ViNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3oKIPzwpTfPXh3YR7a/giphy.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    display: flex;
-    height: 90%;
-    width: 90%;
-    border-radius: 0.6rem;
+  background: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjNmNjAwYjdmYzM1MmFhMDRmMWZkMjdkZTAxYTNlNjI2ZTUyY2ViNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3oKIPzwpTfPXh3YR7a/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  height: 90%;
+  width: 90%;
+  border-radius: 0.6rem;
 }
 
 /* Nexus Screen */
 
 #nexus_window {
-    background-color: #e746d2;
-    position: absolute;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    opacity: 88%;
-    height: 90%;
-    width: 90%;
-    border-radius: 1rem;
-    margin: 1.2rem;
+  background-color: #e746d2;
+  position: absolute;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  opacity: 88%;
+  height: 90%;
+  width: 90%;
+  border-radius: 1rem;
+  margin: 1.2rem;
 }
 
 #puzzle_section {
-    background-image: url("https://pm1.narvii.com/6413/c2780b54d80464c00e541642a206c081276d317f_00.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-self: center;
-    position: absolute;
-    display: flex;
-    height: 55%;
-    width: 70%;
-    border: .3rem solid #9c328e;
-    border-radius: 1rem;
+  background-image: url("https://pm1.narvii.com/6413/c2780b54d80464c00e541642a206c081276d317f_00.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-self: center;
+  position: absolute;
+  display: flex;
+  height: 55%;
+  width: 70%;
+  border: 0.3rem solid #9c328e;
+  border-radius: 1rem;
 }
 
 #oops {
-    position: absolute;
-    bottom: 5rem;
+  position: absolute;
+  bottom: 5rem;
 }
 
 #error_message {
-    position: absolute;
-    align-self: center;
-    justify-content: center;
-    bottom: 3rem;
-    left: 2rem;
+  position: absolute;
+  align-self: center;
+  justify-content: center;
+  bottom: 3rem;
+  left: 2rem;
 }
 
 /* Others */
 
 #bot_button {
-    background-color: var(--non_white);
-    position: absolute;
-    display: flex;
-    align-self: center;
-    border: solid 1px black;
-    border-radius: 1rem;
-    height: 1.7rem;
-    width: 1.7rem;
-    bottom: 0.1rem;
-    left: 47%;
+  background-color: var(--non_white);
+  position: absolute;
+  display: flex;
+  align-self: center;
+  border: solid 1px black;
+  border-radius: 1rem;
+  height: 1.7rem;
+  width: 1.7rem;
+  bottom: 0.1rem;
+  left: 47%;
 }
 
 /* Media Queries */
 @media (max-width: 768px) {
-    #phone {
-        width: 100%;
-        max-width: 100%;
-    }
+  #phone {
+    width: 100%;
+    max-width: 100%;
+  }
 }
