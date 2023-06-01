@@ -120,8 +120,6 @@ a {
   bottom: 0.1rem;
 }
 
-
-
 .popup {
   display: none;
   position: fixed;
@@ -131,7 +129,7 @@ a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 20px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .popup-content {
@@ -170,7 +168,7 @@ a {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: #fff;
   font-size: 6px;
   text-align: center;
@@ -204,7 +202,6 @@ a {
 .button.secondary:active {
   background-color: #c2c2c2;
 }
-
 
 /* Media Queries */
 @media (max-width: 768px) {
