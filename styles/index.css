@@ -1,0 +1,212 @@
+:root {
+  --non_white: #f1f6f9d8;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-image: url("https://img.freepik.com/free-vector/geometric-gradient-background_1010-638.jpg?w=740&t=st=1685453129~");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  height: 4rem;
+  width: 4rem;
+}
+
+/* Phone Screens */
+
+#phone {
+  background-color: var(--non_white);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  border: solid 5px black;
+  height: 45rem;
+  width: 25rem;
+}
+
+#phone_screen_limits {
+  position: absolute;
+  display: flex;
+  border: solid 5px black;
+  border-radius: 1rem;
+  height: 90%;
+  width: 90%;
+}
+
+#phone_header {
+  background-color: black;
+  position: absolute;
+  display: flex;
+  height: 1rem;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+#phone_touch {
+  background-image: url(/assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  height: 90%;
+  width: 90%;
+  border-radius: 0.6rem;
+}
+
+#top_half_screen {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+
+#bot_half_screen {
+  position: absolute;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+}
+
+/* Top-Half screen elements */
+
+#clock {
+  font-size: 4rem;
+  color: var(--non_white);
+  position: relative;
+}
+
+/* Bot-Half screen elements */
+
+#wsp_trucho {
+  background-image: url("/assets/wsp_trucho.svg");
+}
+
+#nexus {
+  background-image: url("/assets/nexus.svg");
+  background-color: #b61644;
+}
+
+/* Others */
+
+.app {
+  background-position: center;
+  background-size: contain;
+  background-color: transparent;
+  position: relative;
+  border-radius: 10rem;
+  height: 4rem;
+  width: 4rem;
+  margin: 0.5rem;
+}
+
+#bot_button {
+  background-color: var(--non_white);
+  position: absolute;
+  display: flex;
+  border-radius: 1rem;
+  height: 1.7rem;
+  width: 1.7rem;
+  bottom: 0.1rem;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  width: 300px;
+  height: 200px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup-content {
+  color: #272727;
+  text-align: center;
+}
+
+.popup::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #555;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Estilo de los botones */
+
+.button_accept {
+  width: fit-content;
+  height: 30px;
+  background-color: #b5f1cc;
+  border-radius: 3px;
+  border-style: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button_accept:hover {
+  background-color: #5c8984;
+  transition: 0.5s;
+}
+
+.button_cancel {
+  width: fit-content;
+  height: 30px;
+  background-color: #fd8a8a;
+  border-radius: 3px;
+  border-style: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button_cancel:hover {
+  background-color: #d8596a;
+  transition: 0.5s;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  #phone {
+    width: 100%;
+  }
+}
+
+@keyframes popupAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

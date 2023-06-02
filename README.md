@@ -1,0 +1,7 @@
+                .:PROYECTO: "Connect The Universe":.
+
+"Anon se despertó un día con un extraño mensaje en su celular,advirtiendo de una misteriosa aplicación que apareció de repente instalada. Por alguna razón, decide seguir las instrucciones del mensaje y entrar a la app. Acto seguido, se encuentra con que su celular fue intervenido por Nexus, un software que, al parecer, puede conectar celulares de diferentes universos."
+
+"Connect The Universe" es un proyecto de juego en web, que simula el uso de un teléfono celular para una mayor inmersión. Inspirado en proyectos ARG como "The Backrooms", "The Mandela Catalogue", o en juegos de temáticas paranormales como "Shin Megami Tensei", la idea tras "Connect The Universe" es mantener el interés del usuario en descubrir el trasfondo que la propia historia cuenta, a través de pequeñas pistas y guiños que dan a entender las verdaderas razones detrás de Nexus.
+
+En presente desarrollo, y lamentablemente sin una demo que podría llamarse completa, "Connect The Universe" es un proyecto que aspira a ofrecer una historia profunda mediante un entorno que, si bien ya es muy usado, darle una vuelta de tuerca importante para dejar atrás la monotonía de los juegos de misterio basados en celulares encontrados.

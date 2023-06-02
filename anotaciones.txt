@@ -1,0 +1,24 @@
+~DUDAS~
+
+1- Cómo hacer scrolleable sólo la zona respectiva a la pantalla? Sin que se vea el
+cosito del ascensor, que sólo con la ruedita del mouse se pueda lograr.
+
+2- Cómo acomodar los mensajes en Wsp_Trucho para que siempre que se inserte un nuevo
+mensaje el globo de imagen se acomode según la persona que lo envía? Con grid sólo
+puedo controlar un tamaño fijo de columna. Pienso que quizá haya que agregar una 
+tercera columna que sirva únicamente para la imagen del usuario, pero ésto podría
+hacer que se vea todo mas feucho.
+
+
+~CAMBIOS~
+
+1- Cambiar input de wsp_trucho por ventana con elecciones y
+darle uso al boton de enviar
+
+2- agregar elementos de batería y wifi sin señal al header
+
+3- realizar que la ventana emergente del inicio aparezca un tiempo determinado
+
+TAREAS PARA MI (Ale je): mejorar botones, completar header, agregar header a wsp
+
+TAREAS PARA VOS (Seba je): agregar bucle a modal, sacar limite de tiempo en modal index, modal en cptd_index y real_nexus, y batería

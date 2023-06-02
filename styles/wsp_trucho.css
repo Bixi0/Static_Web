@@ -1,0 +1,120 @@
+:root {
+  --non_white: #f1f6f9d8;
+  --green_pastel: #b5f1cc;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-image: url("https://img.freepik.com/free-vector/geometric-gradient-background_1010-638.jpg?w=740&t=st=1685453129~");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Phone Screens */
+
+#phone {
+  background-color: var(--non_white);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  border: solid 5px black;
+  height: 45rem;
+  width: 25rem;
+}
+
+#phone_screen_limits {
+  position: absolute;
+  display: flex;
+  border: solid 5px black;
+  border-radius: 1rem;
+  height: 90%;
+  width: 90%;
+}
+
+#phone_header {
+  background-color: black;
+  position: absolute;
+  display: flex;
+  height: 1rem;
+  width: 100%;
+  z-index: 1;
+}
+
+#phone_touch {
+  background-image: url("/assets/wsp_trucho_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: grid;
+  grid-template-columns: 5rem auto;
+  border-radius: 0.6rem;
+  height: 100%;
+  width: 100%;
+}
+
+#message_input {
+  background-color: var(--non_white);
+  position: absolute;
+  display: flex;
+  height: 2rem;
+  width: 80%;
+  bottom: 0;
+  left: 0;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#send_message {
+  background-color: var(--non_white);
+  background-image: url("https://www.svgrepo.com/show/506314/send-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 10rem;
+  right: 0;
+  bottom: 0;
+  margin: 0.5rem;
+}
+
+.message_globe {
+  background-color: var(--green_pastel);
+  position: relative;
+  opacity: 90%;
+  width: 15rem;
+  height: max-content;
+  padding: 0.5rem;
+  margin: 1.5rem 1.5rem 1rem 0.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+/* Others */
+
+#bot_button {
+  background-color: var(--non_white);
+  position: absolute;
+  display: flex;
+  align-self: center;
+  border-radius: 1rem;
+  height: 1.7rem;
+  width: 1.7rem;
+  bottom: 0.1rem;
+  left: 47%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  #phone {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px;
+  }
+}

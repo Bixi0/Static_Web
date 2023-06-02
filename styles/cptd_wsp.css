@@ -1,0 +1,135 @@
+:root {
+  --non_white: #f1f6f9d8;
+  --green_pastel: #b5f1cc;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: url("https://thumbs.gfycat.com/IncomparableGaseousDunlin-size_restricted.gif");
+  background-size: contain;
+  background-repeat: repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Phone Screens */
+
+#phone {
+  background-color: var(--non_white);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  border: solid 5px black;
+  height: 45rem;
+  width: 25rem;
+}
+
+#phone_screen_limits {
+  position: absolute;
+  display: flex;
+  border: solid 5px black;
+  border-radius: 1rem;
+  height: 90%;
+  width: 90%;
+}
+
+#phone_header {
+  background-color: black;
+  position: absolute;
+  display: flex;
+  height: 1rem;
+  width: 100%;
+  z-index: 1;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+#phone_touch {
+  background-image: url("/assets/cptd_wsp_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0.6rem;
+  height: 100%;
+  width: 100%;
+}
+
+#message_input {
+  background-color: var(--non_white);
+  position: absolute;
+  display: flex;
+  height: 2rem;
+  width: 80%;
+  bottom: 0;
+  left: 0;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#send_message {
+  background-color: var(--non_white);
+  background-image: url("https://www.svgrepo.com/show/506314/send-2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 10rem;
+  right: 0;
+  bottom: 0;
+  margin: 0.5rem;
+}
+
+/* Others */
+
+#bot_button {
+  background-color: var(--non_white);
+  position: absolute;
+  display: flex;
+  align-self: center;
+  border-radius: 1rem;
+  height: 1.7rem;
+  width: 1.7rem;
+  bottom: 0.1rem;
+  left: 47%;
+}
+
+#phone_touch > * {
+  filter: invert(100%);
+}
+
+.message {
+  margin-bottom: 6.5px;
+  padding: 2.5px;
+  border-radius: 5px;
+}
+
+.girl {
+  margin-right: auto;
+  width: fit-content;
+  background-color: #f0f0f0;
+  margin: 0.3rem 0.3rem auto 0.2rem;
+  width: fit-content;
+  background-color: #f0f0f0;
+}
+
+.you {
+  text-align: right;
+  width: fit-content;
+  margin: 0.3rem 0.3rem 0.2rem auto;
+  background-color: #bff9b3;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  #phone {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px;
+  }
+}
