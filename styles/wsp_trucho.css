@@ -44,7 +44,7 @@ body {
 }
 
 #phone_touch {
-  background-image: url("/assets/wsp_trucho_background.jpg");
+  background-image: url("../assets/wsp_trucho_background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
