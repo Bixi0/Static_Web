@@ -1,6 +1,6 @@
 setTimeout(() => {
   // Redirigir a otra página HTML después de completar el reinicio
-  window.location.href = "cptd_index.html";
+  window.location.href = "../pages/cptd_index.html";
 }, 5000); // Tiempo de espera después de ocultar la pantalla en negro
 const iniciarProgreso = () => {
   const progressBar = document.getElementById("loading-bar");
