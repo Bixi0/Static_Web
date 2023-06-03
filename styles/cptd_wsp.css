@@ -48,7 +48,7 @@ body {
 }
 
 #phone_touch {
-  background-image: url("/assets/cptd_wsp_background.png");
+  background-image: url("../assets/cptd_wsp_background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
