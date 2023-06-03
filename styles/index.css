@@ -49,7 +49,7 @@ a {
 }
 
 #phone_touch {
-  background-image: url(/assets/background.jpg);
+  background-image: url("../assets/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -89,11 +89,11 @@ a {
 /* Bot-Half screen elements */
 
 #wsp_trucho {
-  background-image: url("/assets/wsp_trucho.svg");
+  background-image: url("../assets/wsp_trucho.svg");
 }
 
 #nexus {
-  background-image: url("/assets/nexus.svg");
+  background-image: url("../assets/nexus.svg");
   background-color: #b61644;
 }
 
@@ -164,43 +164,34 @@ a {
   cursor: pointer;
 }
 
-/* Estilo del botón */
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: #fff;
-  font-size: 6px;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+/* Estilo de los botones */
+
+.button_accept {
+  width: fit-content;
+  height: 30px;
+  background-color: #b5f1cc;
+  border-radius: 3px;
+  border-style: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.button:hover {
-  background-color: #45a049;
+.button_accept:hover {
+  background-color: #5c8984;
+  transition: 0.5s;
 }
 
-.button:active {
-  background-color: #3d8b42;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+.button_cancel {
+  width: fit-content;
+  height: 30px;
+  background-color: #fd8a8a;
+  border-radius: 3px;
+  border-style: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Estilo del botón secundario */
-.button.secondary {
-  background-color: #e0e0e0;
-  color: #333;
-}
-
-.button.secondary:hover {
-  background-color: #d6d6d6;
-}
-
-.button.secondary:active {
-  background-color: #c2c2c2;
+.button_cancel:hover {
+  background-color: #d8596a;
+  transition: 0.5s;
 }
 
 /* Media Queries */
