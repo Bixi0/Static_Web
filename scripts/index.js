@@ -34,7 +34,7 @@ window.addEventListener("load", () => {
     closePopup();
     clearTimeout(showTimeout); // Cancelar el timeout existente
     // Redirigir a otro archivo HTML
-    window.location.href = "/pages/wsp_trucho.html";
+    window.location.href = "../pages/wsp_trucho.html";
   };
 
   // Función para manejar el clic en el botón "Cancelar"
