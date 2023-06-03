@@ -22,10 +22,10 @@ window.addEventListener("load", () => {
     closePopup();
     clearTimeout(showTimeout); // Cancelar el timeout existente
     // Redirigir a otro archivo HTML
-    window.location.href = "/pages/cptd_wsp.html";
+    window.location.href = "../pages/cptd_wsp.html";
   };
 
   // Agregar eventos aL botón
-  const acceptButton = popup.querySelector(".buttons button:first-of-type");
+  const acceptButton = popup.querySelector(".button button:first-of-type");
   acceptButton.addEventListener("click", accept);
 });
