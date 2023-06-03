@@ -54,7 +54,7 @@ a {
 }
 
 #phone_touch {
-  background-image: url(/assets/cptd_background.png);
+  background-image: url("../assets/cptd_background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -94,11 +94,11 @@ a {
 /* Bot-Half screen elements */
 
 #wsp_trucho {
-  background-image: url("/assets/wsp_trucho.svg");
+  background-image: url("../assets/wsp_trucho.svg");
 }
 
 #nexus {
-  background-image: url("/assets/nexus.svg");
+  background-image: url("../assets/nexus.svg");
   background-color: #b61644;
 }
 
@@ -160,42 +160,18 @@ a {
 }
 
 /* Estilo del botón */
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+.button_ok {
+  width: fit-content;
+  height: 30px;
+  background-color: #b9b9b9;
+  border-radius: 3px;
+  border-style: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.button:hover {
-  background-color: #45a049;
-}
-
-.button:active {
-  background-color: #3d8b42;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-/* Estilo del botón secundario */
-.button.secondary {
-  background-color: #e0e0e0;
-  color: #333;
-}
-
-.button.secondary:hover {
-  background-color: #d6d6d6;
-}
-
-.button.secondary:active {
-  background-color: #c2c2c2;
+.button_ok:hover {
+  background-color: #696969;
+  transition: 0.5s;
 }
 
 #phone_touch > * {
